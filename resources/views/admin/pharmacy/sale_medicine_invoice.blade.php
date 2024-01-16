@@ -1,0 +1,8 @@
+@extends('layouts.admin')
+@section('title', 'Medicine Sale Invoice')
+@section('breadcrumb', 'Medicine Sale Invoice')
+@section('body')
+
+<sale-medicine-invoice id="{{$id}}"></sale-medicine-invoice>
+
+@endsection
